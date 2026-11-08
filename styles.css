@@ -96,6 +96,7 @@ section.block { padding: 112px 0 40px; }
 .engage { margin-top: 72px; background: var(--blush); border-radius: 32px; padding: 44px; }
 .engage h3 { font-weight: 500; font-size: 32px; margin-bottom: 8px; }
 .engage p { color: var(--muted); max-width: 720px; }
+.engage .engage-note { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--blush-2); font-size: 15px; color: var(--rose-deep); font-weight: 600; }
 
 /* About */
 .about .wrap { display: flex; flex-wrap: wrap; gap: 64px; align-items: center; padding-top: 112px; padding-bottom: 112px; }
