@@ -36,10 +36,6 @@ After the new site is live, cancel the GoDaddy Website Builder plan (keep the do
 
 ## The intake form
 
-The form posts to [FormSubmit](https://formsubmit.co), which emails each submission to jennifer@dandiesinthewind.org. No account needed.
+The intake form is a Microsoft Form owned by Jennifer's personal Microsoft account, embedded in `index.html` (the `intake-form-embed` iframe). Every response is saved in Microsoft Forms (View responses), and an email notification is sent for each one.
 
-**One-time activation:** the very first time anyone submits the form, FormSubmit sends a confirmation email to jennifer@dandiesinthewind.org. Click the activation link in it, and from then on every submission arrives as an email. Submit a test yourself right after launch so this happens before a real client fills it out.
-
-Optional: after activating, FormSubmit gives you a random alias string. Replace the email address in the form's `action` with `https://formsubmit.co/<that-alias>` so Jennifer's address isn't visible in the page source.
-
-Spam protection is a hidden honeypot field. If spam becomes a problem, change `_captcha` to `true` in `index.html`.
+To change the questions, edit the form at forms.office.com; the site updates automatically. If the form grows or shrinks a lot, adjust the iframe `height` in `styles.css`.
